@@ -3,7 +3,7 @@
   --light-blue-grey: #B7C9E2
 }
 
-body {
+header {
   background-color: var(--deep-night-blue);
   color: var(--light-blue-grey);
 }
