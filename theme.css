@@ -1,0 +1,13 @@
+:root {
+  --deep-night-blue: #111B23
+  --light-blue-grey: #B7C9E2
+}
+
+body {
+  background-color: var(--deep-night-blue);
+  color: var(--light-blue-grey);
+}
+
+.redacted{
+  text-decoration: line-through;
+}
