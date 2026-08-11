@@ -1,4 +1,68 @@
 # onceuponatimeinredacted.com
+
+## Html Template
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../style.css">
+  <script type="module" src="../script.js"></script>
+  <title>Once Upon A Time In REDACTED</title>
+</head>
+
+<body>
+  <header>
+    <h1><a href="https://onceuponatimeinredacted.github.io/">Once Upon A Time In <span
+          class="redacted">REDACTED</span></a></h1>
+  </header>
+  <main>
+<h2>Once Upon A Time In <span class="redacted">REDACTED</span></h2>
+<aside>
+      <pre>
+I'll turn you on like a tiger baby
+Hard body motor city love life
+I'll take you for a ride down the midway baby
+Be my little human sacrifice
+
+Do my kisses burn?
+Do they take your breath
+You've got a lesson to learn now
+I'm the kiss of death
+
+History is written by the winner baby
+So let's make a little of our own tonight
+If you're thinking that my idea for fun is a drag
+Then you've never been to paradise
+          </pre>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/sFNgCrGWQAM" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <footer>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=sFNgCrGWQAM" target="_blank">Sex On Wheelz (Cool World Mix)</a>
+          </li>
+          <li><a href="https://mylifewiththethrillkillkult.com/" target="_blank">My Life With The Thrill Kill Kult</a>
+          </li>
+        </ul>
+      </footer>
+    </aside>
+  </main>
+  <footer>&copy <a href="https://onceuponatimeinredacted.github.io/">Once Upon A Time In <span
+        class="redacted">REDACTED</span></a></footer>
+</body>
+
+</html>
+
+
+```
+
+## Open Graph and Twitter Card
+
 ```  <!-- Core Open Graph Metadata -->
   <meta property="og:title" content="default">
   <meta property="og:type" content="website">
@@ -39,11 +103,6 @@
   <meta name="twitter:image:alt" content="Once Upon A Time In REDATED">
   <meta name="twitter:domain" content="onceuponatimeinredacted.com">
   <meta name="twitter:url" content="https://onceuponatimeinredacted.com">
-
-
-
-  
-
 ```
 
 
