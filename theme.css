@@ -7,7 +7,9 @@ html {
   background-color: var(--deep-night-blue);
   color: var(--light-blue-grey);
 }
-
+aside {
+  border-top: 1em solid var(--light-blue-grey);
+}
 .redacted{
   text-decoration: line-through;
 }
