@@ -1,6 +1,7 @@
 :root {
   --deep-night-blue: #111B23;
   --light-blue-grey: #B7C9E2;
+  --disabled-grey: #888888;
 }
 
 html {
@@ -8,11 +9,20 @@ html {
   color: var(--light-blue-grey);
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
-aside {
-  border-top: .1rem solid var(--light-blue-grey);
+
+h2 {
+  border-bottom: .1rem solid var(--light-blue-grey);
 }
+
 .redacted {
   text-decoration: line-through;
+}
+
+.disabled-link {
+  pointer-events: none;        /* Disables the click event */
+  cursor: default;             /* Prevents the pointer cursor */
+  opacity: 0.6;                /* Visual cue that it's inactive */
+  color: var(--disabled-grey); /* Gray out the text color */
 }
 
 /*
