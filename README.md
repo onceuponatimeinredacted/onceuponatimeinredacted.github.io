@@ -1,4 +1,56 @@
 # onceuponatimeinredacted.com
+```  <!-- Core Open Graph Metadata -->
+  <meta property="og:title" content="default">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://onceuponatimeinredacted.com">
+  <meta property="og:image" content="https://example.com">
+  
+  <!-- Optional / Recommended Metadata -->
+  <meta property="og:description" content="Once Upon A Time In REDATED">
+  <meta property="og:site_name" content="Once Upon A Time In REDATED">
+  <meta property="og:locale" content="en_US">
+  
+  <!-- Rich Media Specific Metadata (Structured Properties) -->
+  <meta property="og:image:url" content="https://onceuponatimeinredacted.com/onceuponatimeinredacted.jpg">
+  <meta property="og:image:secure_url" content="https://onceuponatimeinredacted.com/onceuponatimeinredacted.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Once Upon A Time In REDATED">
+  
+  <!-- Optional Audio/Video Protocol Tags -->
+  <meta property="og:video" content="https://onceuponatimeinredacted.com/onceuponatimeinredacted.mp4">
+  <meta property="og:video:secure_url" content="https://onceuponatimeinredacted.com/onceuponatimeinredacted.mp4">
+  <meta property="og:video:type" content="video/mp4">
+  <meta property="og:video:width" content="1920">
+  <meta property="og:video:height" content="1080">
+  
+  <meta property="og:audio" content="https://onceuponatimeinredacted.com/onceuponatimeinredacted.mp3">
+  <meta property="og:audio:secure_url" content="https://onceuponatimeinredacted.com/onceuponatimeinredacted.mp3">
+  <meta property="og:audio:type" content="audio/mpeg">
+
+  <!-- Twitter Card for X.com -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@OnceREDACTED">
+  <meta name="twitter:creator" content="@OnceREDACTED">
+  <meta name="twitter:title" content="Once Upon A Time In REDATED">
+  <meta name="twitter:description" content="Once Upon A Time In REDATED">
+  <meta name="twitter:image" content="https://onceuponatimeinredacted.com">
+  <meta name="twitter:image:alt" content="Once Upon A Time In REDATED">
+  <meta name="twitter:domain" content="onceuponatimeinredacted.com">
+  <meta name="twitter:url" content="https://onceuponatimeinredacted.com">
+
+
+
+  
+
+```
+
+
+
+
+
+
 Once Upon A Time In REDACTED
 Charcoal black: #212121
 Dusky grey: #A19A96
@@ -15,7 +67,7 @@ Dark support color: #212121
 Metallic hardware / borders / shadows: #2A3439
 
 ---
-
+```
 <head>
   <meta charset="utf-8">
   <title>Default Title</title>
@@ -65,12 +117,12 @@ Metallic hardware / borders / shadows: #2A3439
   <meta name="twitter:domain" content="yourdomain.com">
   <meta name="twitter:url" content="https://yourdomain.com">
 </head>
-
+```
 ---
 
 Here is the updated pure functional function. It merges the parsed JSON input directly with a DEFAULT_CONFIG fallback object, ensuring that any missing configuration key inherits a default value instead of returning an empty string.Functional Implementation with Defaults
 
-
+```
 /**
  * A pure function that converts a JSON metadata string into an HTML meta tags string,
  * falling back to default values when configuration keys are missing.
@@ -123,14 +175,14 @@ function getTwitterMetaTagsWithDefaults(jsonInput) {
     .map(([key, value]) => `  <meta name="${key}" content="${escapeHtmlValue(value)}">`)
     .join('\n');
 }
-
+```
 
 
 PurposeVisual Impact: It overrides the default small thumbnail format and replaces it with a rich media preview.Click-Through Rate: It maximizes screen real estate in user feeds to drive more traffic.Placement: Must be placed inside the <head> section of your HTML document.
 
 
 Syntax Breakdownname="twitter:card": Specifies that this metadata is meant for X's card-rendering engine.content="summary_large_image": Sets the layout type to a full-width image layout.Context & Supporting TagsThis tag does not work alone. You must pair it with companion meta tags so the crawler can populate the card details:
-
+```
 <head>
   <!-- Card Layout Type -->
   <meta name="twitter:card" content="summary_large_image">
@@ -145,7 +197,7 @@ Syntax Breakdownname="twitter:card": Specifies that this metadata is meant for X
   <!-- Optional Handle Attribution -->
   <meta name="twitter:site" content="@YourBrandHandle">
 </head>
-
+```
 
 Key Differencessummary: Displays a small, square thumbnail image on the left, with text on the right.summary_large_image: Displays a large, full-width feature image on top, with text stacked underneath.
 
@@ -157,7 +209,7 @@ write a pure js function that takes a string of json and converts the key value 
 
 
 Here is the pure, deterministic vanilla JavaScript function configured exactly to your specifications. It merges incoming values over a default asset object and safely maps them to both Open Graph (og:) and X/Twitter Card protocols simultaneously.Native JavaScript Implementation
-
+```
 /**
  * A pure function that compiles a JSON input string into a complete 
  * HTML string fragment containing Open Graph and Twitter Card metadata tags.
@@ -239,10 +291,10 @@ const dynamicJsonInput = `{
 const metaHtmlFragment = socialMediaTags(dynamicJsonInput);
 
 console.log(metaHtmlFragment);
-
+```
 
 Generated Compliant Output
-
+```
   <meta property="og:type" content="website">
   <meta property="og:title" content="Default Native Application">
   <meta property="og:description" content="Overriding the boilerplate text dynamically using zero-dependency code.">
@@ -253,12 +305,12 @@ Generated Compliant Output
   <meta name="twitter:description" content="Overriding the boilerplate text dynamically using zero-dependency code.">
   <meta name="twitter:image" content="https://example.com">
   <meta name="twitter:site" content="@DefaultBrand">
-
+```
 
 Protocol Compliance DetailsAttribute Separation: Open Graph protocol specifications require the standard property="" attribute, while X/Twitter Cards safely listen to the native name="" attribute namespace. The functional loop handles this branching natively without manual typing.Deterministic Scaling: If the incoming jsonConfig is invalid or entirely blank "{}", it securely passes valid fallback items to guarantee search crawlers never pull broken data structure variables.
 
 
-
+```
 /**
  * Compiles a JSON input string into an HTML string fragment containing
  * validated Open Graph and Twitter Card metadata tags, using a static default configuration object.
@@ -313,5 +365,5 @@ Protocol Compliance DetailsAttribute Separation: Open Graph protocol specificati
     .join('\n');
 };
 
-
+```
 
