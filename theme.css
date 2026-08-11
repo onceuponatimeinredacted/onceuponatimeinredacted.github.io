@@ -6,6 +6,7 @@
 html {
   background-color: var(--deep-night-blue);
   color: var(--light-blue-grey);
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 aside {
   border-top: .1rem solid var(--light-blue-grey);
