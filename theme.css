@@ -8,9 +8,9 @@ html {
   color: var(--light-blue-grey);
 }
 aside {
-  border-top: 1em solid var(--light-blue-grey);
+  border-top: .1rem solid var(--light-blue-grey);
 }
-.redacted{
+.redacted {
   text-decoration: line-through;
 }
 
