@@ -3,6 +3,11 @@
   --light-blue-grey: #B7C9E2;
 }
 
+html {
+  background-color: var(--deep-night-blue);
+  color: var(--light-blue-grey);
+}
+
 header {
   background-color: var(--deep-night-blue);
   color: var(--light-blue-grey);
