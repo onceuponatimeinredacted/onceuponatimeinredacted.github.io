@@ -29,20 +29,3 @@ aside {
   opacity: 0.6;                /* Visual cue that it's inactive */
   color: var(--disabled-grey); /* Gray out the text color */
 }
-
-/*
-header {
-  background-color: var(--deep-night-blue);
-  color: var(--light-blue-grey);
-}
-
-main {
-  background-color: var(--deep-night-blue);
-  color: var(--light-blue-grey);
-}
-
-footer {
-  background-color: var(--deep-night-blue);
-  color: var(--light-blue-grey);
-}
-*/
