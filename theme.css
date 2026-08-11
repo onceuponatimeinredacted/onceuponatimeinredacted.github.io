@@ -2,21 +2,32 @@
   --deep-night-blue: #111B23;
   --light-blue-grey: #B7C9E2;
   --disabled-grey: #888888;
+  --charcoal-black: #212121;
+  --charcoal-black: #212121;
+  --dusky-grey: #A19A96;
+  --medium-sapphire: #0F52BA;
+  --medium-gunmetal: #2A3439;
+
+  --bg-color-1: var(--deep-night-blue);
+  --fg-color-1: var(--light-blue-grey);
+  --border-color-1: var(--medium-sapphir);
+    
   --theme-font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  --theme-border: .1rem solid var(--border-color-1);
 }
 
 html {
-  background-color: var(--deep-night-blue);
-  color: var(--light-blue-grey);
+  background-color: var(--bg-color-1);
+  color: var(--fg-color-1);
   font-family: var(--theme-font-family);
 }
 
 h2 {
-  border-bottom: .1rem solid var(--light-blue-grey);
+  border-bottom: var(--theme-border);
 }
 
 aside {
-  border-top: .1rem solid var(--light-blue-grey);
+  border-top: var(--theme-border);
 }
 
 .redacted {
