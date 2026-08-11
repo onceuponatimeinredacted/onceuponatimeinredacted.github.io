@@ -51,4 +51,21 @@ Metallic hardware / borders / shadows: #2A3439
   <meta property="og:audio:type" content="audio/mpeg">
 </head>
 
+---
+
+<head>
+  <!-- X (Twitter) Card Primary Metadata -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@YourWebsiteHandle">
+  <meta name="twitter:creator" content="@AuthorHandle">
+  <meta name="twitter:title" content="Page Title Goes Here (Max 70 Characters)">
+  <meta name="twitter:description" content="A brief, punchy summary of the content for the card preview. Keep it under 200 characters for optimal display.">
+  <meta name="twitter:image" content="https://yourdomain.com">
+  <meta name="twitter:image:alt" content="Descriptive alternative text for accessibility and screen readers.">
+  <meta name="twitter:domain" content="yourdomain.com">
+  <meta name="twitter:url" content="https://yourdomain.com">
+</head>
+
+---
+
 
