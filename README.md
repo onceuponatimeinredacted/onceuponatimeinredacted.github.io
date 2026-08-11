@@ -105,10 +105,16 @@ Then you've never been to paradise
   <meta name="twitter:url" content="https://onceuponatimeinredacted.com">
 ```
 
+## Video Embeds
 
+```
+<iframe src="https://www.youtube.com/embed/sFNgCrGWQAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/139187316?h=911db66dcd" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
+```
 
+## Misc
 
 Once Upon A Time In REDACTED
 Charcoal black: #212121
