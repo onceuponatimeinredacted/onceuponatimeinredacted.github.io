@@ -2,12 +2,13 @@
   --deep-night-blue: #111B23;
   --light-blue-grey: #B7C9E2;
   --disabled-grey: #888888;
+  --theme-font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
 html {
   background-color: var(--deep-night-blue);
   color: var(--light-blue-grey);
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font-family: var(--theme-font-family);
 }
 
 h2 {
