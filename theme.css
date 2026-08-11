@@ -8,6 +8,16 @@ header {
   color: var(--light-blue-grey);
 }
 
+main {
+  background-color: var(--deep-night-blue);
+  color: var(--light-blue-grey);
+}
+
+footer {
+  background-color: var(--deep-night-blue);
+  color: var(--light-blue-grey);
+}
+
 .redacted{
   text-decoration: line-through;
 }
